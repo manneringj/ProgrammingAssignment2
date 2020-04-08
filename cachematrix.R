@@ -1,6 +1,17 @@
 ## Assignment 2 Scripts
 
 
+### Notes on how to test
+
+                        ##Code tested with:
+        
+                                ## amatrix<-makecachematrix(matrix(1:4,2,2))
+                                ## cachesolve(amatrix)
+                                        ## returns calculated inverse
+                                ## cachesolve(amatrix)
+                                        ## returns cached version of inverse
+
+
 ## Function to produce a list with is infact a set of functions to store and retrieve a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -19,6 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 }
+
 
 
 ## Funciton Check if and inverse has already been calculated otherwise calculates it
